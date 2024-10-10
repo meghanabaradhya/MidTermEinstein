@@ -230,6 +230,7 @@ footer p {
 @media (max-width: 768px) {
     .container {
         padding: 0 1rem; /* Reduce side padding for smaller screens */
+        height: 300vh;
     }
 
     /* Header adjustments */
@@ -285,6 +286,10 @@ footer p {
     body {
         font-size: 1.2rem; /* Increase overall font size for readability */
         line-height: 1.5; /* Adjust line height for better text spacing */
+    }
+    .container {
+        padding: 0 1rem; /* Reduce side padding for smaller screens */
+        height: 700vh;
     }
 
     nav ul {
