@@ -45,9 +45,13 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    justify-content: center;
+    display: inline-grid; 
+    grid-template-columns: repeat(5, auto); 
+    justify-items: center;
     gap: 3vw;
 }
+
+
 
 nav ul li {
     position: relative;
